@@ -11,7 +11,7 @@ new fullpage("#fullpage", {
         if (destination.index === 1) {
             const hugoimg = document.querySelectorAll(".hugoimg");
             const description = document.querySelector(".description");
-            tl.fromTo(hugoimg, 2, { opacity: 0, x: "-80%" }, { opacity: 1, x: "30%" })
+            tl.fromTo(hugoimg, 2, { opacity: 0, x: "-80%" }, { opacity: 1, x: "25%" })
               .fromTo(
                 description,
                 0.8,
@@ -24,3 +24,9 @@ new fullpage("#fullpage", {
           }
     }
 });
+
+// function to trigger Menu animation
+document.querySelector('.button').addEventListener('click', () => {
+    document.querySelector('.menu__list')
+      .classList.toggle('menu__list--animate');
+  });
