@@ -63,7 +63,7 @@ section h1 {
     margin: 50px 0px;
   }
   
-  /* MENU  */
+  /* MENU 
 
   .wrapper {
     position: relative;
@@ -135,4 +135,4 @@ section h1 {
         animation-delay: $delay * ($i - 1);
       }
     }
-  }
+  } */

@@ -25,8 +25,3 @@ new fullpage("#fullpage", {
     }
 });
 
-// function to trigger Menu animation
-document.querySelector('.button').addEventListener('click', () => {
-    document.querySelector('.menu__list')
-      .classList.toggle('menu__list--animate');
-  });
